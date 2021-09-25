@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.1)), url(businessman.jpg);
+    background-size: 100% ;
+  background-attachment: fixed;
+   background-size: cover;
+    font-family:sans-serif;
+}
+
+.menubar{
+background-color:rgba(0,0,0,1);
+text-align: center;
+
+}
+
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color:whitesmoke;
+}
+
+.menubar ul li {
+width: 120px;
+margin: 15px;
+padding: 15px;
+
+}
+
+.menubar  ul li a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.active, .menubar ul li:hover{
+background-color:rgb(44, 11, 236)
+}
+
+.submenu1{
+    display: none;
+}
+ 
+.menubar ul li:hover .submenu1 {
+     display: block;
+     position: absolute;
+     background-color: rgba(0,0,0,0.4);
+     margin-top: 15px;
+     margin-left: -15px;
+}
+
+.menubar ul li:hover .submenu1 ul {     
+        display: block;
+        margin: 10px;
+}
+
+.menubar ul li:hover .submenu1 ul li {
+        width: 150px;
+        padding:10px;
+    border-bottom: 1px dotted #000;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menubar ul li:hover .submenu1 ul li:last-child{
+border border-bottom: none;
+}
+
+.menubar ul li:hover .submenu1 ul li a:hover{
+    color: cornflowerblue;
+}
+
+.submenu2{
+     display: none;
+}
+
+.hoverme:hover .submenu2
+{
+position: absolute;
+display: block;
+margin-top: -40px;
+margin-left:140px ;
+background-color: rgba(0,0,0,0.4);
+}
+
+#greatmind{
+   font-weight: bolder;
+   font-family: cursive;
+ width: 100%;
+ height: 85vh;
+ display: flex;
+ justify-content: center;
+ align-items: baseline;
+color: whitesmoke;
+}
+
+.field{
+   background-color: rgba(0,0.1,0.8,0.4);
+   margin: auto;
+   border: dotted whitesmoke 4px;
+   border-radius: 1px 25px;
+   letter-spacing: 3px;
+   text-shadow: rgb(3, 3, 41);
+   padding: 50px;
+}
+
+#logoborder{
+    border:4px outset whitesmoke;
+border-radius:50%;
+padding:0px;
+float: ;
+
+}
+
+.head{
+    position: fixed;
+    top: 0;
+    padding-bottom: 15px;
+    float:right;
+    width: 100%;
+}
+
+.brand{
+    border: black 3px inset;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+text-decoration: none;
+
+
+}
+
+#side{
+    float: left;
+    position: left;
+}
+
+#bgcontact{
+    background-color:rgba(0,0,0.1,0.5);
+    margin:auto;
+    border:dotted;
+    border-width:5px 5px;
+    border-color:yellow;
+    border-radius:1px 25px;
+    height: 50px;
+    width: 400px;
+    padding: 20px;
+    
+}
+
+.card1{
+    background-color:yellow;
+    border:ridge yellow 4px;
+    border-radius:3px;
+    height: 40px;
+    width: 200px;
+    }
+
+    #footer{
+        background-color: black;
+        position: fixed;
+        bottom: 0;
+        
+        
+        width: 100%;
+    }
+    }
